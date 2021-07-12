@@ -1,0 +1,94 @@
+# Prueba4_ProgramacionAlgoritmos_DuocUC
+Prueba N4 Programación de algoritmos DuocUC 2021
+ENUNCIADO 1:
+Vuelos-Duoc requiere contratar de tus servicios de informática para el desarrollo de un 
+proyecto en Python para la venta de sus pasajes, el sistema es bastante simple, lo primero que 
+hay que tener en cuenta es que son en total 41 asientos por avión, como se ve a continuación:
+| 1 2 3 4 5 6 |
+| |
+| 7 8 9 10 11 12 |
+| |
+| 13 14 15 16 17 18 |
+| |
+| 19 20 21 22 23 24 |
+| |
+| 25 26 27 28 29 30 |
+|______________________ ____________________|
+|______________________ ____________________|
+| 31 32 33 34 35 36 |
+| |
+| |
+| 37 38 39 40 41 42 |
+Donde desde el asiento 31 al 42 se consideran asientos para pasajeros vip.
+Los precios de un asiento normal son de $78.900, mientras que los de un asiento vip son 
+de $240.000.
+El sistema deberá permitir al usuario seleccionar un asiento disponible (mostrando los 
+asientos disponibles) e indicar el valor, una vez que el usuario acepte, deberá solicitar 
+los datos del usuario, en los cuales tenemos nombrePasajero, rutPasajero, 
+telefonoPasajero y bancoPasajero, además, el sistema deberá implementar el siguiente 
+menú:
+1. Ver asientos disponibles
+2. Comprar asiento
+3. Anular vuelo
+4. Modificar datos de pasajero
+5. SalirVer asientos disponibles mostrará por pantalla todos los asientos disponibles con su 
+número de asiento y los no disponibles los con una “X”
+| 1 2 3 4 5 6 |
+| |
+| 7 X X 10 11 12 |
+| |
+| X X X 16 X 18 |
+| |
+| 19 20 21 22 23 24 |
+| |
+| 25 26 27 X 29 30 |
+|______________________ ____________________|
+|______________________ ____________________|
+| X 32 33 34 35 36 |
+| |
+| |
+| X 38 X 40 41 X |
+Comprar asiento: solicita los datos del usuario, luego el usuario escoge un asiento, si es 
+usuario de “bancoDuoc” el sistema le realiza un 15% de descuento en el total de su 
+pasaje.
+Anular Pasaje: Deja el asiento nuevamente disponible y elimina los datos del usuario.
+Modificar datos de pasajero: solicita el asiento y Rut (para verificar datos) luego 
+muestra un submenú en el cual debe escoger que dato va a modificar:
+Puede modificar nombrePasajero y telefonoPasajero.
+Para realizar la evaluación se recomienda crear arreglo multidimensional.
+ENUNCIADO 2:
+Dadas dos listas pobladas con elementos de tipo carácter, se pide generar una tercera 
+sólo con los elementos que estén repetidos en ellas. Considerar que la nueva lista no 
+contenga elementos duplicados. 
+ENUNCIADO 3:
+Declarar y poblar un arreglo unidimensional de largo 10 con números enteros positivos, 
+utilizando la función random, luego ingrese un número e indique si éste se encuentra en 
+el arreglo.ENUNCIADO 4:
+Ingresar dos números enteros positivos entre 3 y 6, ambos inclusive, luego esos números 
+serán las dimensiones de un arreglo bidimensional. Posteriormente, poblar la matriz con 
+números reales. Finalmente, muestre:
+● La suma por filas
+● El promedio por columnas
+ENUNCIADO 5:
+Crear un programa que permita el ingreso de dos números enteros, luego debe llamar a 
+una función que reciba estos números y que realice lo siguiente:
+● Si el primer número es mayor que el segundo, debe devolver 1.
+● Si el primer número es menor que el segundo, debe devolver -1.
+● Si ambos números son iguales, debe devolver un 0.
+ENUNCIADO 6:
+Crear un programa que contenga un menú con las siguientes opciones:
+● Área de un circulo
+● Perímetro de un cuadrado
+Ingrese los valores necesarios para calcular y entregar resultados utilizando funciones
+ENUNCIADO 7:
+Ingresar un número entero entre 10 y 15, este número será el máximo de número que 
+debe mostrar en la serie Fibonacci.
+ENUNCIADO 8:
+Ingrese una palabra, luego indique:
+● Si es un Palíndromo (es una palabra o frase que se lee igual en un sentido que en 
+otro)
+● Cantidad de letras que contiene.
+Entrega:
+Para la entrega deberá comprimir los archivos en un .rar y enviarlo a su docente a través 
+de Mensaje de AVA, con el siguiente formato -> nombreAlumno_PGY1121_SECCION
+Ejemplo: JuanPerez_PGY1121_001
